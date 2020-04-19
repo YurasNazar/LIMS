@@ -1,0 +1,31 @@
+﻿@model UserListViewModel
+@{
+    ViewBag.Title = "Index Page";
+}
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Full Name</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model.Users)
+        {
+            <tr>
+                <td>
+                    @user.Id
+                </td>
+                <td>
+                    @user.FullName
+                </td>
+                <td>
+                    @user.Email
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

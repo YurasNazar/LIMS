@@ -1,0 +1,22 @@
+﻿@model User
+
+@{
+    ViewBag.Title = "Details Page";
+}
+
+@section Scripts {
+    <script src="~/js/Home/userDetails.js"></script>
+}
+
+<div>
+    Identifier: @Model.Id
+</div>
+<div>
+    First Name: @Model.FirstName
+</div>
+<div>
+    Last Name: @Model.LastName
+</div>
+<div>
+    Email: @Model.Email
+</div>
