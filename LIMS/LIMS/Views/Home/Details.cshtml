@@ -1,22 +1,27 @@
 ﻿@model User
-
 @{
     ViewBag.Title = "Details Page";
 }
-
 @section Scripts {
-    <script src="~/js/Home/userDetails.js"></script>
+    <script src="~/js/home/userDetails.js"></script>
 }
-
-<div>
-    Identifier: @Model.Id
-</div>
-<div>
-    First Name: @Model.FirstName
-</div>
-<div>
-    Last Name: @Model.LastName
-</div>
-<div>
-    Email: @Model.Email
+<div class="row justify-content-center m-3">
+    <div class="col-sm-8">
+        <div class="card">
+            <div class="card-header">
+                <h1>@Model.FirstName</h1>
+            </div>
+            <div class="card-body text-center">
+                <img class="card-img-top" src="~/images/ProfilePicture.png" asp-append-version="true"/>
+                <h4>Employee ID : @Model.Id</h4>
+                <h4>Email : @Model.Email</h4>
+                <h4>Group : @Model.Group</h4>
+            </div>
+            <div class="card-footer text-center">
+                <a asp-controller="home" class="btn btn-primary">Back</a>
+                <a href="#" class="btn btn-primary">Edit</a>
+                <a href="#" class="btn btn-danger">Delete</a>
+            </div>
+        </div>
+    </div>
 </div>

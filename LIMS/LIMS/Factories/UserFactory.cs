@@ -7,7 +7,7 @@ namespace LIMS.Factories
 {
     public class UserFactory : IUserFactory
     {
-        public UserListViewModel PrepareUserListViewModel(List<User> users)
+        public UserListViewModel PrepareUserListViewModel(IList<User> users)
         {
             return new UserListViewModel
             {

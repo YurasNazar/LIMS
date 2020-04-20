@@ -7,6 +7,6 @@ namespace LIMS.Services
     {
        User GetUserById(int Id);
 
-       List<User> GetAllUsers();
+       IList<User> GetAllUsers();
     }
 }

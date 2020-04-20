@@ -1,4 +1,3 @@
-D:\DIPLOMA PROJECT\LIMS\LIMS\obj\Debug\netcoreapp2.2\LIMS.csprojAssemblyReference.cache
 D:\DIPLOMA PROJECT\LIMS\LIMS\obj\Debug\netcoreapp2.2\LIMS.RazorAssemblyInfo.cache
 D:\DIPLOMA PROJECT\LIMS\LIMS\bin\Debug\netcoreapp2.2\appsettings.Development.json
 D:\DIPLOMA PROJECT\LIMS\LIMS\bin\Debug\netcoreapp2.2\appsettings.json
@@ -19,11 +18,13 @@ D:\DIPLOMA PROJECT\LIMS\LIMS\bin\Debug\netcoreapp2.2\LIMS.Views.pdb
 D:\DIPLOMA PROJECT\LIMS\LIMS\obj\Debug\netcoreapp2.2\LIMS.TagHelpers.input.cache
 D:\DIPLOMA PROJECT\LIMS\LIMS\obj\Debug\netcoreapp2.2\LIMS.TagHelpers.output.cache
 D:\DIPLOMA PROJECT\LIMS\LIMS\obj\Debug\netcoreapp2.2\LIMS.RazorCoreGenerate.cache
-D:\DIPLOMA PROJECT\LIMS\LIMS\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
 D:\DIPLOMA PROJECT\LIMS\LIMS\obj\Debug\netcoreapp2.2\LIMS.RazorTargetAssemblyInfo.cs
 D:\DIPLOMA PROJECT\LIMS\LIMS\obj\Debug\netcoreapp2.2\LIMS.Views.pdb
 D:\DIPLOMA PROJECT\LIMS\LIMS\obj\Debug\netcoreapp2.2\LIMS.csproj.CopyComplete
-D:\DIPLOMA PROJECT\LIMS\LIMS\obj\Debug\netcoreapp2.2\Razor\Views\Home\Details.cshtml.g.cs
 D:\DIPLOMA PROJECT\LIMS\LIMS\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
 D:\DIPLOMA PROJECT\LIMS\LIMS\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
-D:\DIPLOMA PROJECT\LIMS\LIMS\obj\Debug\netcoreapp2.2\Razor\Views\Home\_ViewStart.cshtml.g.cs
+D:\DIPLOMA PROJECT\LIMS\LIMS\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+D:\DIPLOMA PROJECT\LIMS\LIMS\obj\Debug\netcoreapp2.2\LIMS.csprojAssemblyReference.cache
+D:\DIPLOMA PROJECT\LIMS\LIMS\obj\Debug\netcoreapp2.2\Razor\Views\Home\Details.cshtml.g.cs
+D:\DIPLOMA PROJECT\LIMS\LIMS\bin\Debug\netcoreapp2.2\libman.json
+D:\DIPLOMA PROJECT\LIMS\LIMS\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs

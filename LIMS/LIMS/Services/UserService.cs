@@ -6,7 +6,7 @@ namespace LIMS.Services
 {
     public class UserService : IUserService
     {
-        private List<User> _userRepository = new List<User>();
+        private IList<User> _userRepository = new List<User>();
 
         public UserService()
         {
@@ -18,12 +18,12 @@ namespace LIMS.Services
             return _userRepository.FirstOrDefault(user => user.Id == Id);
         }
 
-        public List<User> GetAllUsers()
+        public IList<User> GetAllUsers()
         {
             return _userRepository;
         }
 
-        private List<User> GetAllUsersList()
+        private IList<User> GetAllUsersList()
         {
             return new List<User>()
             {

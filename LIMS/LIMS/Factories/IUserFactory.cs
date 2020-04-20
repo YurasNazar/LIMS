@@ -6,6 +6,6 @@ namespace LIMS.Factories
 {
     public interface IUserFactory
     {
-        UserListViewModel PrepareUserListViewModel(List<User> users);
+        UserListViewModel PrepareUserListViewModel(IList<User> users);
     }
 }

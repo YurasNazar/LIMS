@@ -2,30 +2,21 @@
 @{
     ViewBag.Title = "Index Page";
 }
+<div class="card-deck">
+    @foreach (var user in Model.Users)
+    {
+        <div class="card m-3">
+            <div class="card-header">
+                <h3>@user.FullName</h3>
+            </div>
+            <img class="card-img-top" src="~/images/ProfilePicture.png" asp-append-version="true"/>
+            <div class="card-footer text-center">
+                <a asp-controller="Home" asp-action="Details" asp-route-id="@user.Id" class="btn btn-primary">View</a>
+                <a href="#" class="btn btn-primary">Edit</a>
+                <a href="#" class="btn btn-danger">Delete</a>
+            </div>
+        </div>
+    }
+</div>
 
-<table>
-    <thead>
-        <tr>
-            <th>ID</th>
-            <th>Full Name</th>
-            <th>Email</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var user in Model.Users)
-        {
-            <tr>
-                <td>
-                    @user.Id
-                </td>
-                <td>
-                    @user.FullName
-                </td>
-                <td>
-                    @user.Email
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
 
